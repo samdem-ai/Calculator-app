@@ -1,7 +1,4 @@
-@font-face {
-  font-family: "LS";
-  src: url("/LeagueSpartan-VariableFont_wght.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
 
 body {
   display: flex;
@@ -15,7 +12,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "LS";
+  font-family: 'League Spartan', sans-serif;;
   font-size: 32px;
   font-weight: 700;
   gap: 2vh;
@@ -101,7 +98,7 @@ body {
 
 #RESET,
 #EQ {
-  font-family: "LS";
+  font-family:'League Spartan', sans-serif;;
   font-size: 32px;
   font-weight: 700;
   width: 85%;
@@ -114,7 +111,7 @@ body {
 
 .ops,
 #Del {
-  font-family: "LS";
+  font-family:'League Spartan', sans-serif;;
   font-size: 32px;
   font-weight: 700;
   justify-self: center;
