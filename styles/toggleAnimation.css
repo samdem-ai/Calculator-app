@@ -102,25 +102,25 @@
 
         @keyframes to2 {
             100%{
-                margin-left: 3.3vw;
+                margin-left: 2.6vw;
             }
         }
         
         @keyframes to3{
             0%{
-                margin-left: 3.3vw;
+                margin-left: 2.6vw;
             }
             100%{
-                margin-left: 5.9vw;
+                margin-left: 4.4vw;
             }
         }
         
         @keyframes to1{
             0%{
-                margin-left: 5.5vw;
+                margin-left: 4.4vw;
             }
             100%{
-                margin-left: .8vw;
+                margin-left: .7vw;
             }
         }
         }

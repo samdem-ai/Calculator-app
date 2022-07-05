@@ -235,6 +235,24 @@ body {
     width: 40vw;
   }
 
+
+  .toggler {
+    width: 6vw;
+    height: 3.7vh;
+  }
+
+  .switch{
+    font-size: 1vw;
+  }
+
+  .nums span{
+    margin-left: 1.1vw;
+  }
+
+  .circle{
+    margin-left: .7vw;
+  }
+
   .bar {
     width: 88%;
   }
