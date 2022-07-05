@@ -232,26 +232,26 @@ body {
 
 @media (min-width: 1440px) {
   .container {
-    width: 45vw;
+    width: 40vw;
   }
 
   .bar {
-    width: 91%;
+    width: 88%;
   }
   .screen {
-    width: 91%;
+    width: 88%;
   }
 
   .keypad {
     padding: 4vh 1vh;
-    width: 88%;
+    width: 85%;
     row-gap: 3vh;
     justify-content: center;
   }
   .ops,
   #Del {
-    width: 8vw;
-    height: 5vw;
+    width: 7vw;
+    height: 4vw;
   }
 
   #RESET,

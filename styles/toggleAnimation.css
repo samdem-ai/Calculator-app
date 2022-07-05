@@ -96,3 +96,31 @@
         }
     }
     }
+
+    @media (min-width: 1440px) {
+
+
+        @keyframes to2 {
+            100%{
+                margin-left: 3.3vw;
+            }
+        }
+        
+        @keyframes to3{
+            0%{
+                margin-left: 3.3vw;
+            }
+            100%{
+                margin-left: 5.9vw;
+            }
+        }
+        
+        @keyframes to1{
+            0%{
+                margin-left: 5.5vw;
+            }
+            100%{
+                margin-left: .8vw;
+            }
+        }
+        }
