@@ -1,0 +1,62 @@
+body {
+  background-color: hsl(222, 26%, 31%);
+  color: white;
+}
+
+.toggler {
+  background-color: hsl(223, 31%, 20%);
+}
+
+.circle {
+  background-color: hsl(6, 63%, 50%);
+}
+
+.screen {
+  background-color: hsl(224, 36%, 15%);
+}
+
+.screen h3::-webkit-scrollbar {
+    width: 1rem;
+    height: 1rem;
+  }
+  
+.screen h3::-webkit-scrollbar-track {
+    background: hsl(222, 26%, 31%);
+    border-radius: 100vw;
+    margin-block: 0.5em;
+  }
+  
+.screen h3::-webkit-scrollbar-thumb {
+    background: hsl(6, 63%, 50%);
+    opacity: 50%;
+    border-radius: 100vw;
+  }
+  
+  .screen h3::-webkit-scrollbar-thumb:hover {
+    background: hsl(120 100% 10% / 1);
+  }
+
+
+.keypad {
+  background-color: hsl(223, 31%, 20%);
+}
+
+#RESET,
+#EQ {
+  color: white;
+  background-color: hsl(6, 63%, 50%);
+  box-shadow: 0px 6px hsl(6, 70%, 34%);
+}
+
+.ops,
+#Del {
+  color: hsl(221, 14%, 31%);
+  background-color: hsl(30, 25%, 89%);
+  box-shadow: 0px 6px hsl(28, 16%, 65%);
+}
+
+.DelRESET {
+  background-color: hsl(225, 21%, 49%) !important;
+  color: white !important;
+  box-shadow: 0px 6px hsl(224, 28%, 35%) !important;
+}

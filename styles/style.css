@@ -1,0 +1,261 @@
+@font-face {
+  font-family: "LS";
+  src: url("/assets/League_Spartan/LeagueSpartan-VariableFont_wght.ttf");
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "LS";
+  font-size: 32px;
+  font-weight: 700;
+  gap: 2vh;
+  width: 100vw;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.bar {
+  width: 84%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bar h3 {
+  font-size: 2rem;
+}
+
+.switch {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 3vw;
+  align-items: center;
+  row-gap: 0;
+}
+
+.theme {
+  grid-row: 2;
+}
+
+.nums {
+  margin: 0;
+}
+
+.nums span {
+  margin-left: 3.2vw;
+}
+
+.toggler {
+  display: flex;
+  border-radius: 20px;
+  width: 18vw;
+  height: 3.5vh;
+  align-items: center;
+}
+
+.circle {
+  margin-left: 2vw;
+  border-radius: 50%;
+  width: 2vh;
+  border: none;
+  height: 2vh;
+}
+
+.screen {
+  width: 84%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.screen h3 {
+  padding-top: 2%;
+  font-size: 10vw;
+  margin: 10% 5%;
+  overflow-x: auto;
+}
+
+.keypad {
+  padding: 2vh 1vh;
+  width: 80%;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 2.5vh;
+  justify-content: center;
+}
+
+#RESET,
+#EQ {
+  font-family: "LS";
+  font-size: 32px;
+  font-weight: 700;
+  width: 85%;
+  justify-self: center;
+  grid-column: span 2;
+  height: 15vw;
+  border-radius: 8px;
+  border: none;
+}
+
+.ops,
+#Del {
+  font-family: "LS";
+  font-size: 32px;
+  font-weight: 700;
+  justify-self: center;
+  border-radius: 8px;
+  border: none;
+  width: 15vw;
+  height: 15vw;
+}
+
+.DelRESET {
+  font-size: 28px !important;
+}
+
+.ops:hover,.DelRESET:hover,#EQ:hover{
+  filter: brightness(120%);
+}
+
+.rm {
+  box-shadow: none !important;
+  padding-top: 6px !important;
+}
+
+@media (min-width: 600px) {
+  .container {
+    width: 60vw;
+  }
+
+  .bar {
+    margin-bottom: -30px;
+  }
+
+  .bar h3 {
+    font-size: 3rem;
+  }
+
+  .switch {
+    row-gap: 5px;
+    font-size: 1.5vw;
+  }
+
+  .nums span {
+    margin-left: 2vw;
+  }
+
+  .toggler {
+    width: 10vw;
+    height: 3.5vh;
+  }
+
+  .circle {
+    margin-left: 1vw;
+    width: 2vh;
+    height: 2vh;
+  }
+
+  .screen {
+    height: 14vh;
+  }
+
+  .screen h3 {
+    font-size: 4rem;
+  }
+
+  .keypad {
+    row-gap: 3vh;
+  }
+
+  .ops,
+  #Del {
+    width: 10vw;
+    height: 6vw;
+  }
+
+  #RESET,
+  #EQ {
+    height: 6vw;
+  }
+}
+
+@media (min-width: 1100px) {
+  .container {
+    width: 55vw;
+  }
+
+  .nums span {
+    margin-left: 1.3vw;
+  }
+
+  .toggler {
+    width: 8vw;
+    height: 3.7vh;
+  }
+
+  .circle {
+    margin-left: 0.8vw;
+    width: 2.5vh;
+    height: 2.5vh;
+  }
+
+  .screen h3 {
+    font-size: 3.5rem;
+  }
+
+  .ops,
+  #Del {
+    width: 9vw;
+    height: 5vw;
+  }
+
+  #RESET,
+  #EQ {
+    height: 5vw;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 45vw;
+  }
+
+  .bar {
+    width: 91%;
+  }
+  .screen {
+    width: 91%;
+  }
+
+  .keypad {
+    padding: 4vh 1vh;
+    width: 88%;
+    row-gap: 3vh;
+    justify-content: center;
+  }
+  .ops,
+  #Del {
+    width: 8vw;
+    height: 5vw;
+  }
+
+  #RESET,
+  #EQ {
+    height: 5vw;
+  }
+}

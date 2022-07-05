@@ -1,0 +1,98 @@
+
+
+.returnTo1{
+    animation: to1 .6s ;
+    animation-fill-mode: forward
+}
+
+.addTo2{
+    animation: to2 .6s ;
+    animation-fill-mode: forwards;
+}
+
+.addTo3{
+    animation: to3 .6s ;
+    animation-fill-mode: forwards;
+}
+
+
+
+@keyframes to2 {
+    100%{
+        margin-left: 6.5vw;
+    }
+}
+
+@keyframes to3{
+    0%{
+        margin-left: 6.5vw;
+    }
+    100%{
+        margin-left: 12vw;
+    }
+}
+
+@keyframes to1{
+    0%{
+        margin-left: 12vw;
+    }
+    100%{
+        margin-left: 2vw;
+    }
+}
+
+@media (min-width: 600px) {
+
+
+@keyframes to2 {
+    100%{
+        margin-left: 4vw;
+    }
+}
+
+@keyframes to3{
+    0%{
+        margin-left: 4vw;
+    }
+    100%{
+        margin-left: 7.4vw;
+    }
+}
+
+@keyframes to1{
+    0%{
+        margin-left: 7.4vw;
+    }
+    100%{
+        margin-left: 1vw;
+    }
+}
+}
+
+@media (min-width: 1000px) {
+
+
+    @keyframes to2 {
+        100%{
+            margin-left: 3vw;
+        }
+    }
+    
+    @keyframes to3{
+        0%{
+            margin-left: 3vw;
+        }
+        100%{
+            margin-left: 5.5vw;
+        }
+    }
+    
+    @keyframes to1{
+        0%{
+            margin-left: 5.5vw;
+        }
+        100%{
+            margin-left: .8vw;
+        }
+    }
+    }
