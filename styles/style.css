@@ -227,7 +227,7 @@ body {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1365px) {
   .container {
     width: 40vw;
   }
