@@ -43,7 +43,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- grid layout
+- Grid layout
 - Mobile-first workflow
 
 
@@ -60,4 +60,4 @@ Users should be able to:
 
 ## Acknowledgments
 
-a big Thank you to both of  colt steele and the net ninja who are helping me through my frontend developenent carrere
+a big Thank you to both of  colt steele and the net ninja who are helping me through my frontend developenent carrer
